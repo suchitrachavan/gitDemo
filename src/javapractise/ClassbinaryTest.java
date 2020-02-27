@@ -23,6 +23,10 @@ public class ClassbinaryTest {
   public void beforemethod()
   {
 	  System.out.println("test before method annotation");
+	  System.out.println("test before method annotation");
+	  System.out.println("test before method annotation");
+	  System.out.println("test before method annotation");
+	  
   }
   @AfterMethod
   public void aftermethod()
@@ -38,5 +42,6 @@ public class ClassbinaryTest {
   public void Afterclass()
   {
 	  System.out.println("test after class annotation");
+	  System.out.println("This is for GIt demo");
   }
 }
