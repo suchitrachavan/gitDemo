@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="111" started-at="2020-02-26T13:12:37 EST" finished-at="2020-02-26T13:12:37 EST">
+    <groups>
+      <group name="smoke">
+        <method signature="prioterixe.test1()[pri:0, instance:javapractise.prioterixe@66480dd7]" name="test1" class="javapractise.prioterixe"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Default test" duration-ms="111" started-at="2020-02-26T13:12:37 EST" finished-at="2020-02-26T13:12:37 EST">
+      <class name="javapractise.prioterixe">
+        <test-method status="PASS" signature="test1()[pri:0, instance:javapractise.prioterixe@66480dd7]" name="test1" duration-ms="18" started-at="2020-02-26T13:12:37 EST" finished-at="2020-02-26T13:12:37 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2(java.lang.String, java.lang.String)[pri:0, instance:javapractise.prioterixe@66480dd7]" name="test2" duration-ms="1" started-at="2020-02-26T13:12:37 EST" data-provider="getdata" finished-at="2020-02-26T13:12:37 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[suchitra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chavan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test2(java.lang.String, java.lang.String)[pri:0, instance:javapractise.prioterixe@66480dd7]" name="test2" duration-ms="3" started-at="2020-02-26T13:12:37 EST" data-provider="getdata" finished-at="2020-02-26T13:12:37 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[genesys]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[employee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test2(java.lang.String, java.lang.String)[pri:0, instance:javapractise.prioterixe@66480dd7]" name="test2" duration-ms="3" started-at="2020-02-26T13:12:37 EST" data-provider="getdata" finished-at="2020-02-26T13:12:37 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[salary]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:javapractise.prioterixe@66480dd7]" name="test3" duration-ms="2" started-at="2020-02-26T13:12:37 EST" finished-at="2020-02-26T13:12:37 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- javapractise.prioterixe -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

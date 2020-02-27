@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="javapractise.ClassbinaryTest"/>
+      <class name="javapractise.Classbinary"/>
+     
+    </classes>
+ </test> 
+  <test name="Test2">
+     <classes>
+      <class name="javapractise.prioterixe">
+     	 	<methods>
+     		 <exclude name="test1"/>
+     		 </methods>
+       </class>
+   </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
